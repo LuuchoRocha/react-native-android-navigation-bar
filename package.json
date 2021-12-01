@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-navigation-bar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React Native component to configure navigation bar on Android",
   "main": "index.ts",
   "react-native": "index.ts",

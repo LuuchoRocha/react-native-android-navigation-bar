@@ -21,10 +21,10 @@ android {
     compileSdkVersion safeExtGet('AndroidNavigationBar_compileSdkVersion', 30)
     buildToolsVersion safeExtGet('AndroidNavigationBar_buildToolsVersion', '30.0.2')
     defaultConfig {
-        minSdkVersion safeExtGet('AndroidNavigationBar_minSdkVersion', 27)
+        minSdkVersion safeExtGet('AndroidNavigationBar_minSdkVersion', 21)
         targetSdkVersion safeExtGet('AndroidNavigationBar_targetSdkVersion', 30)
-        versionCode 1
-        versionName "1.0.1"
+        versionCode 3
+        versionName "1.0.2"
 
     }
 
