@@ -21,16 +21,16 @@ android {
     compileSdkVersion safeExtGet('AndroidNavigationBar_compileSdkVersion', 30)
     buildToolsVersion safeExtGet('AndroidNavigationBar_buildToolsVersion', '30.0.2')
     defaultConfig {
-        minSdkVersion safeExtGet('AndroidNavigationBar_minSdkVersion', 23)
+        minSdkVersion safeExtGet('AndroidNavigationBar_minSdkVersion', 27)
         targetSdkVersion safeExtGet('AndroidNavigationBar_targetSdkVersion', 30)
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.1"
 
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
         }
     }
     lintOptions {
@@ -55,4 +55,5 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation 'org.jetbrains:annotations:16.0.2'
 }
